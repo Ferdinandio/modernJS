@@ -1,0 +1,57 @@
+html body {
+	margin: 0;
+}
+body::before {
+	content: '';
+	position: fixed; /* Фиксируем на одном месте */
+	left: 0; right: 0; /* Вся ширин */
+	top: 0; bottom: 0; /* Вся высота */
+	z-index: -1; /* Фон ниже текста */
+	/* Параметры фона */
+	background: url(../assets/bgr.jpg) center / cover no-repeat;
+	filter: blur(10px); /* Размытие */
+ }
+
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	width: 1100px;
+}
+
+.btnWrapper {
+	margin-top: 70px;
+	margin-bottom: 70px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.btn {
+	width: 100px;
+	height: 40px;
+	margin-right: 30px;
+	transition-duration: 500ms;
+}
+
+.activeBtn {
+	width: 150px;
+	height: 60px;
+	margin-right: 10px;
+	background-color: lawngreen;
+	border-radius: 50%;
+	transition-duration: 500ms;
+}
+
+.imgWrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	transition-duration: 500ms;
+}
+
+.img {
+	height: 400px;
+	width: 500px;
+	margin-right: 50px;
+}
