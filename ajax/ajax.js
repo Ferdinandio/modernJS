@@ -9,10 +9,10 @@
 // 	request.setRequestHeader('content-type', 'application/json; charset=utf-8');
 // 	request.send();
 
-// 	//request.status
-// 	//request.statusText
-// 	//request.responseText   /    request.response
-// 	//request.readyState
+// // 	//request.status
+// // 	//request.statusText
+// // 	//request.responseText   /    request.response
+// // 	//request.readyState
 
 // 	request.addEventListener('readystatechange', function() {
 // 		if (request.readyState === 4 && request.status === 200) {
